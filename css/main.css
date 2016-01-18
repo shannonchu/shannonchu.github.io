@@ -30,10 +30,13 @@ h1 {
   font-family:'Lato', 'Sans-Serif';
   color: #00cc66;
 }
+h2{
+  font-family:'Lato', 'Sans-Serif';
+}
 p {
   font-family:'Lato', 'Sans-Serif';
-  font-size: 1.1em;
-  line-height: 1.3em;
+  font-size: 0.9em;
+  line-height: 1.4em;
   color: #333;
 }
 footer {
@@ -62,8 +65,21 @@ ul.posts li {
 }
 
 .about-photo {
-  margin-top: 30px;
-  margin-left: 45px;
-  margin-right: 50px;
-  margin-bottom: 50px;
+  display: inline-block;
+  vertical-align:top;
+  margin: 30px;
+  margin-left: 80px;
+}
+.about-me {
+  margin-top: 10px;
+  display: inline-block;
+  width: 50%;
+}
+
+.about-links {
+  color: #00cc66;
+}
+
+.about-links:hover {
+  color: #00a351;
 }
