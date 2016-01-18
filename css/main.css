@@ -9,16 +9,24 @@ nav ul, footer ul {
   list-style: none;
   font-weight: none;
 }
-nav ul li, footer ul li {
+nav ul li {
   display: inline;
   margin-right: 20px;
 }
+/*footer ul {
+  float: right;
+}*/
+footer ul li {
+  display: inline;
+  margin-right: 10px;
+}
 a {
   text-decoration: none;
-  color: #999;
+  color: #404040;
 }
 a:hover {
   text-decoration: none;
+  color: #00cc66;
 }
 h1 {
   font-size: 2em;
