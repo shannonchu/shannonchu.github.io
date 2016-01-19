@@ -86,9 +86,14 @@ ul.posts li {
 
 .portfolio-piece {
   margin-top: 30px;
-  margin-left: 80px;
-  margin-right: 80px;
+  margin-left: 100px;
+  margin-right: 100px;
   margin-bottom: 30px;
+}
+
+.portfolio-piece p {
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .portfolio-piece img {
