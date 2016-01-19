@@ -35,7 +35,7 @@ h2, h3 {
 }
 p {
   font-family:'Lato', 'Sans-Serif';
-  font-size: 0.9em;
+  font-size: 1.1em;
   line-height: 1.4em;
   color: #333;
 }
@@ -91,7 +91,7 @@ ul.posts li {
   margin-bottom: 30px;
 }
 
-.portfolio-piece img.center {
+.portfolio-piece img {
   display: block;
   margin: 0 auto;
 }
