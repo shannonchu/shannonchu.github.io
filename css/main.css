@@ -76,11 +76,11 @@ ul.posts li {
   width: 50%;
 }
 
-.about-links {
+.links {
   color: #00cc66;
 }
 
-.about-links:hover {
+.links:hover {
   color: #00a351;
 }
 
@@ -96,7 +96,7 @@ ul.posts li {
   margin-right: 25px;
 }
 
-.portfolio-piece img {
+.portfolio-piece img, iframe {
   display: block;
   margin: 0 auto;
 }
