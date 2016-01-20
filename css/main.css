@@ -101,6 +101,15 @@ ul.posts li {
   margin: 0 auto;
 }
 
-.sleep img {
+.sleep img,
+.ashby-village img,
+.medifast img {
+  margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.credits {
+  font-family:'Lato', 'Sans-Serif';
+  font-size: 1.0em;
+  line-height: 1.4em;
 }
