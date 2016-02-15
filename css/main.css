@@ -38,7 +38,11 @@ h1 {
 h2, h3 {
   font-family:'Lato', 'Sans-Serif';
 }
-h3 {
+h4 {
+  font-family:'Lato', 'Sans-Serif';
+  font-weight: 400;
+}
+h3, h4 {
   text-transform: uppercase;
 }
 p {
@@ -90,7 +94,7 @@ ul.posts li {
   margin-bottom: 30px;
 }
 
-.portfolio-piece h3, h2, h1, p {
+.portfolio-piece h4, h3, h2, h1, p {
   text-align: center;
   padding-left: 150px;
   padding-right: 150px;
