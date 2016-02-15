@@ -99,11 +99,14 @@ ul.posts li {
 .portfolio-piece img, iframe {
   display: block;
   margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .sleep img,
 .ashby-village img,
-.medifast img {
+.medifast img,
+.rugged img {
   margin-top: 30px;
   margin-bottom: 30px;
 }
