@@ -13,6 +13,10 @@ nav ul li {
   display: inline;
   margin-right: 20px;
 }
+.header-img {
+  padding-top: 30px;
+  width: 23%;
+}
 footer ul li {
   display: inline;
   margin-right: 10px;
@@ -35,9 +39,10 @@ h2, h3 {
 }
 p {
   font-family:'Lato', 'Sans-Serif';
-  font-size: 1.1em;
-  line-height: 1.4em;
+  font-size: 1.0em;
+  line-height: 1.6em;
   color: #333;
+  font-weight: 300;
 }
 footer {
   border-top: 1px solid #d5d5d5;
@@ -64,17 +69,6 @@ ul.posts li {
   margin-right: 22px;
 }
 
-.about-photo {
-  display: inline-block;
-  vertical-align:top;
-  margin: 30px;
-  margin-left: 80px;
-}
-.about-me {
-  margin-top: 10px;
-  display: inline-block;
-  width: 50%;
-}
 
 .links {
   color: #00cc66;
@@ -86,14 +80,15 @@ ul.posts li {
 
 .portfolio-piece {
   margin-top: 30px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
   margin-bottom: 30px;
 }
 
-.portfolio-piece p {
-  margin-left: 25px;
-  margin-right: 25px;
+.portfolio-piece h3, h2, h1, p {
+  text-align: center;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .portfolio-piece img, iframe {
