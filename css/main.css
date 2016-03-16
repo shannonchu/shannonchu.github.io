@@ -124,3 +124,10 @@ ul.posts li {
   line-height: 1.4em;
   font-weight: 400;
 }
+
+.tensos-img {
+  display: inline-block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center;
+}
