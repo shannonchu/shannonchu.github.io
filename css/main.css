@@ -77,7 +77,6 @@ ul.posts li {
   margin-right: 22px;
 }
 
-
 .links {
   color: #00cc66;
   transition: .5s;
@@ -130,4 +129,85 @@ ul.posts li {
   margin-left: auto !important;
   margin-right: auto !important;
   text-align: center;
+}
+
+figcaption h2, h4 {
+  text-align: left;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+/*ipad view*/
+@media only screen and (min-device-width: 768px) and (max-width: 1024px) {
+  .portfolio-piece h4, h3, h2, h1, p {
+    padding: 0px;
+  }
+  body{
+    width: 100%;
+  }
+  .header-img {
+    margin-left: 30px;
+    padding-top: 30px;
+    width: 30%;
+  }
+  nav ul, footer ul {
+    font-size: 1.0em;
+  }
+  nav ul li {
+    display: inline;
+    margin-left: 30px;
+  }
+}
+
+/*mobile view*/
+
+/*iphone 5*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .projects img {
+    width: 96%;
+  }
+  .portfolio-piece h4, h3, h2, h1, p {
+    padding: 0px;
+  }
+  body{
+    width: 100%;
+  }
+  .header-img {
+    margin-left: 30px;
+    padding-top: 30px;
+    width: 90%;
+  }
+  nav ul, footer ul {
+    font-size: 3.0em;
+  }
+  nav ul li {
+    display: inline;
+    margin-left: 30px;
+  }
+}
+
+/*iphone 6*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px)  {
+  .projects img {
+    width: 96%;
+    padding-bottom: 20px;
+  }
+  .portfolio-piece h4, h3, h2, h1, p {
+    padding: 0px;
+  }
+  body{
+    width: 100%;
+  }
+  .header-img {
+    margin-left: 30px;
+    padding-top: 30px;
+    width: 90%;
+  }
+  nav ul, footer ul {
+    font-size: 3.0em;
+  }
+  nav ul li {
+    display: inline;
+    margin-left: 30px;
+  }
 }
