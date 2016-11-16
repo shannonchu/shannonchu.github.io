@@ -86,7 +86,7 @@ ul.posts li {
   color: #00a351;
 }
 
-.portfolio-piece {
+.portfolio-piece, .about-me {
   margin-top: 30px;
   margin-left: 50px;
   margin-right: 50px;
@@ -166,8 +166,9 @@ figcaption h2, h4 {
   .projects img {
     width: 96%;
   }
-  .portfolio-piece h4, h3, h2, h1, p {
+  .portfolio-piece h4, h3, h2, p {
     padding: 0px;
+    font-size: 2.0em;
   }
   body{
     width: 100%;
