@@ -45,6 +45,9 @@ h4 {
 h3, h4 {
   text-transform: uppercase;
 }
+h3 {
+  padding-top: 25px!important;
+}
 p {
   font-family:'Lato', 'Sans-Serif';
   font-size: 1.0em;
@@ -77,6 +80,11 @@ ul.posts li {
   margin-right: 22px;
 }
 
+/*index image styling*/
+
+/*image hover show text*/
+
+/*links*/
 .links {
   color: #00cc66;
   transition: .5s;
@@ -137,6 +145,7 @@ figcaption h2, h4 {
   margin-top: 5px;
 }
 
+/*responsive*/
 /*ipad view*/
 @media only screen and (min-device-width: 768px) and (max-width: 1024px) {
   .portfolio-piece h4, h3, h2, h1, p {
@@ -168,7 +177,7 @@ figcaption h2, h4 {
   }
   .portfolio-piece h4, h3, h2, p {
     padding: 0px;
-    font-size: 2.0em;
+    font-size: 3.0em;
   }
   body{
     width: 100%;
