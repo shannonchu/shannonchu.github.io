@@ -180,6 +180,15 @@ figcaption h2, h4 {
   .portfolio-piece h4, h3, h2, h1, p {
     padding: 0px;
   }
+  ul.photo-grid {
+    padding: 30px;
+  }
+  .img-wrap {
+    vertical-align: top;
+    display: inline-block;
+    width: 48%;
+    margin-right: 10px;
+  }
   body{
     width: 100%;
   }
@@ -203,6 +212,15 @@ figcaption h2, h4 {
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
   .projects img {
     width: 96%;
+  }
+  ul.photo-grid {
+    padding: 30px;
+  }
+  .img-wrap {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    margin-right: 10px;
   }
   .portfolio-piece h4, h3, h2, p {
     padding: 0px;
@@ -230,6 +248,15 @@ figcaption h2, h4 {
   .projects img {
     width: 96%;
     padding-bottom: 20px;
+  }
+  ul.photo-grid {
+    padding: 30px;
+  }
+  .img-wrap {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    margin-right: 10px;
   }
   .portfolio-piece h4, h3, h2, h1, p {
     padding: 0px;
