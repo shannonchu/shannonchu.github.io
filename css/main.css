@@ -177,7 +177,11 @@ figcaption h2, h4 {
 /*responsive*/
 /*ipad view*/
 @media only screen and (min-device-width: 768px) and (max-width: 1024px) {
-  .portfolio-piece h4, h3, h2, h1, p {
+  .portfolio-piece h4,
+  .portfolio-piece h3,
+  .portfolio-piece h2,
+  .portfolio-piece h1,
+  .portfolio-piece p {
     padding: 0px;
   }
   ul.photo-grid {
@@ -210,45 +214,17 @@ figcaption h2, h4 {
 
 /*iphone 5*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-  .projects img {
-    width: 96%;
-  }
-  ul.photo-grid {
-    padding: 30px;
-  }
-  .img-wrap {
-    vertical-align: top;
-    display: inline-block;
-    width: 100%;
-    margin-right: 10px;
-  }
-  .portfolio-piece h4, h3, h2, p {
-    padding: 0px;
-    font-size: 3.0em;
-  }
-  body{
-    width: 100%;
-  }
-  .header-img {
-    margin-left: 30px;
-    padding-top: 30px;
-    width: 90%;
-  }
-  nav ul, footer ul {
-    font-size: 3.0em;
-  }
-  nav ul li {
-    display: inline;
-    margin-left: 30px;
-  }
-}
-
-/*iphone 6*/
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px)  {
+/*index stacked view*/
   .projects img {
     width: 96%;
     padding-bottom: 20px;
   }
+  .projects p {
+    font-size: 3.0em;
+  }
+  .projects h2 {
+    font-size: 4.5em;
+  }
   ul.photo-grid {
     padding: 30px;
   }
@@ -258,8 +234,31 @@ figcaption h2, h4 {
     width: 100%;
     margin-right: 10px;
   }
-  .portfolio-piece h4, h3, h2, h1, p {
-    padding: 0px;
+/*about me page*/
+  .about-me img {
+    width: 100%;
+  }
+/*text adjustments*/
+  .portfolio-piece h4,
+  .portfolio-piece h3,
+  .portfolio-piece h2,
+  .about-me p {
+    padding: 0;
+    font-size: 1.5em;
+  }
+  .about-me h2 {
+    padding: 0;
+    font-size: 3.0em;
+  }
+  .portfolio-piece p {
+    text-align: left;
+    line-height: 1.75em;
+    padding: 0;
+  }
+  .portfolio-piece h1,
+  .about-me h1 {
+    padding: 0;
+    font-size: 4.0em;
   }
   body{
     width: 100%;
