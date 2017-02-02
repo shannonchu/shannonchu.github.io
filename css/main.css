@@ -76,6 +76,7 @@ ul.posts li {
 }
 
 .projects img {
+  width: 100%;
   margin-top: 10px;
   margin-right: 10px;
 }
@@ -151,7 +152,7 @@ figcaption h2, h4 {
 .img-wrap {
   vertical-align: top;
   display: inline-block;
-  width: 100%;
+  width: 30%;
 }
 
 ul.photo-grid {
@@ -160,14 +161,12 @@ ul.photo-grid {
 
 h2.img-description {
   display: block;
-  width: 32%;
   margin: 0;
   padding: 0;
 }
 
 p.proj-description {
   display: block;
-  width: 32%;
   margin: 0;
   padding-bottom: 15px;
 }
