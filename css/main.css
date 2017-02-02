@@ -66,6 +66,30 @@ ul.posts {
   font-size: 1.5em;
 }
 
+/* index photo grid */
+.img-wrap {
+  vertical-align: top;
+  display: inline-block;
+  width: 32%;
+  margin-right: 10px;
+}
+
+ul.photo-grid {
+  padding: 0;
+}
+
+h2.img-description {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+p.proj-description {
+  display: block;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
 ul.posts li {
   list-style: none;
 }
@@ -80,6 +104,7 @@ ul.posts li {
   margin-top: 10px;
   margin-right: 10px;
 }
+
 
 /*links*/
 .links {
@@ -147,29 +172,7 @@ figcaption h2, h4 {
   margin-top: 5px;
 }
 
-/* index photo grid */
 
-.img-wrap {
-  vertical-align: top;
-  display: inline-block;
-  width: 30%;
-}
-
-ul.photo-grid {
-  padding: 0;
-}
-
-h2.img-description {
-  display: block;
-  margin: 0;
-  padding: 0;
-}
-
-p.proj-description {
-  display: block;
-  margin: 0;
-  padding-bottom: 15px;
-}
 
 /*responsive*/
 /*ipad view*/
