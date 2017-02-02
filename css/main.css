@@ -78,16 +78,17 @@ ul.photo-grid {
   padding: 0;
 }
 
-h2.img-description {
+h2.proj-title {
   display: block;
   margin: 0;
-  padding: 0;
+  padding-top: 5px;
 }
 
 p.proj-description {
   display: block;
   margin: 0;
-  padding-bottom: 15px;
+  padding-top: 5px;
+  padding-bottom: 25px;
 }
 
 ul.posts li {
@@ -105,6 +106,8 @@ ul.posts li {
   margin-right: 10px;
 }
 
+.about-me img {
+}
 
 /*links*/
 .links {
@@ -124,17 +127,24 @@ ul.posts li {
   margin-bottom: 30px;
 }
 
-.portfolio-piece h4,
-.portfolio-piece h3,
 .portfolio-piece h2,
-.portfolio-piece h1,
-.portfolio-piece p {
-  text-align: center;
-  padding-left: 150px;
-  padding-right: 150px;
+.portfolio-piece h3,
+.portfolio-piece p,
+.about-me p,
+.about-me h1,
+.about-me h2  {
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
-.portfolio-piece img, iframe {
+.portfolio-piece h4,
+.portfolio-piece h1 {
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.portfolio-piece img, iframe, .about-me img {
   display: block;
   margin: 0 auto;
   margin-top: 30px;
@@ -173,7 +183,6 @@ figcaption h2, h4 {
 }
 
 
-
 /*responsive*/
 /*ipad view*/
 @media only screen and (min-device-width: 768px) and (max-width: 1024px) {
@@ -192,6 +201,26 @@ figcaption h2, h4 {
     display: inline-block;
     width: 48%;
     margin-right: 10px;
+  }
+/*text adjustments*/
+  .portfolio-piece h4,
+  .portfolio-piece h3,
+  .portfolio-piece h2,
+  .about-me p {
+    padding: 0;
+    font-size: 1.5em;
+  }
+  .about-me h2, .about-me h1 {
+    padding: 0;
+  }
+  .portfolio-piece p {
+    text-align: left;
+    line-height: 1.75em;
+    padding: 0;
+  }
+  .portfolio-piece h1 {
+    padding: 0;
+    font-size: 4.0em;
   }
   body{
     width: 100%;
@@ -215,12 +244,12 @@ figcaption h2, h4 {
 /*iphone 5*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
 /*index stacked view*/
-  .projects img {
+  .projects img, iframe {
     width: 96%;
     padding-bottom: 20px;
   }
   .projects p {
-    font-size: 3.0em;
+    font-size: 1.5em;
   }
   .projects h2 {
     font-size: 4.5em;
@@ -239,6 +268,17 @@ figcaption h2, h4 {
     width: 100%;
   }
 /*text adjustments*/
+  h2.proj-title {
+    display: block;
+    margin: 0;
+    padding-top: 5px;
+  }
+  p.proj-description {
+    display: block;
+    margin: 0;
+    padding-top: 5px;
+    margin-bottom: 45px;
+  }
   .portfolio-piece h4,
   .portfolio-piece h3,
   .portfolio-piece h2,
