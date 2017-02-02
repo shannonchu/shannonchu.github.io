@@ -76,13 +76,9 @@ ul.posts li {
 }
 
 .projects img {
-  margin-top: 20px;
-  margin-right: 22px;
+  margin-top: 10px;
+  margin-right: 10px;
 }
-
-/*index image styling*/
-
-/*image hover show text*/
 
 /*links*/
 .links {
@@ -94,6 +90,7 @@ ul.posts li {
   color: #00a351;
 }
 
+
 .portfolio-piece, .about-me {
   margin-top: 30px;
   margin-left: 50px;
@@ -101,7 +98,11 @@ ul.posts li {
   margin-bottom: 30px;
 }
 
-.portfolio-piece h4, h3, h2, h1, p {
+.portfolio-piece h4,
+.portfolio-piece h3,
+.portfolio-piece h2,
+.portfolio-piece h1,
+.portfolio-piece p {
   text-align: center;
   padding-left: 150px;
   padding-right: 150px;
@@ -143,6 +144,32 @@ figcaption h2, h4 {
   text-align: left;
   margin-bottom: 5px;
   margin-top: 5px;
+}
+
+/* index photo grid */
+
+.img-wrap {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+}
+
+ul.photo-grid {
+  padding: 0;
+}
+
+h2.img-description {
+  display: block;
+  width: 32%;
+  margin: 0;
+  padding: 0;
+}
+
+p.proj-description {
+  display: block;
+  width: 32%;
+  margin: 0;
+  padding-bottom: 15px;
 }
 
 /*responsive*/
