@@ -1,25 +1,42 @@
+/* GLOBAL STYLES */
 * {
   font-family:'Lato', 'Sans-Serif';
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 300;
   letter-spacing: 0px;
   -webkit-font-smoothing: antialiased;
-  /*-moz-osx-font-smoothing: grayscale;*/
+  -moz-osx-font-smoothing: grayscale;
 }
-html, body {
+/*html, body {
   width:100%;
-  /*overflow-x:hidden;*/
+  overflow-x:hidden;
 }
+*/
 body {
   padding: 50px;
+  padding-bottom: 10px;
+}
+p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+.horiz-rule {
+  width: 20%;
+  height: 0.6em;
+  background-color: black;
+  margin-left: 0px;
+  margin-top:80px;
+  border:none;
 }
 
-/* NAVIGATION and FOOTER*/
+/* NAVIGATION and FOOTER */
 .header-img {
+  padding-top: 25px;
   width: 90%;
 }
 footer ul {
   padding: 0px;
+  margin-top:10px;
   list-style: none;
 }
 footer ul li {
@@ -30,15 +47,15 @@ footer {
   border-top: 1px solid #d5d5d5;
   text-align: center;
 }
-p {
-  font-size: 1.8em;
-  line-height: 1.5em;
+.fa-2x {
+  font-size: 4em!important;
+  padding: 0.15em;
 }
-
 
 /* LINKS */
 a {
   font-size: 1.0em;
+  font-weight: 400;
   text-decoration: none;
   color: #404040;
   transition: .25s;
@@ -55,7 +72,16 @@ a:hover {
   color: #00a351;
 }
 
-/* index photo grid */
+/* ABOUT ME */
+#intro {
+  margin-bottom: 15em;
+  margin-top: 5em;
+}
+.about-para p {
+  line-height: 1.5em;
+}
+
+/* INDEX PROJECT GRID */
 ul.posts li {
   list-style: none;
   padding-bottom: 30px;
@@ -88,13 +114,293 @@ ul.photo-grid {
   margin:0;
 }
 
-
-
-#intro {
-  margin-bottom: 15em;
-  margin-top: 5em;
+/* LARGE SCREENS */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+  body {
+    display: block;
+    width: 85%;
+    margin: auto;
+  }
+  .header-img {
+    width: 27%;
+  }
+  .fa-2x {
+  font-size: 1.0em!important;
+  padding: 0!important;
+  }
+  footer ul {
+    text-align: right;
+  }
+  .horiz-rule {
+    width: 8%;
+    height: 0.3em;
+    background-color: black;
+    margin-left: 0px;
+    margin-top:70px;
+  }
+  /* ABOUT ME */
+  #intro {
+    margin: 0;
+    margin-top: 120px;
+    height: 80vh;
+  }
+  .about-para p {
+    text-align: left; width: 50%;font-size: 18px;
+  }
+  /* PROJECT GRID */
+  .img-wrap {
+    vertical-align: top;
+    display: inline-block;
+    width: 32%;
+    padding-right: 11px;
+    margin-bottom: 1.5em;
+  }
+  h2.proj-title {
+    display: block;
+    margin: 0;
+    padding-top:15px;
+    font-size: 28px;
+  }
+  p.proj-description {
+    display: block;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 25px;
+    font-size: 17px;
+  }
+  ul.posts li {
+    list-style: none;
+  }
+  .projects ul li {
+    list-style: none;
+    display: inline;
+  }
+  .projects img {
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
 }
-.about-para p {
-  line-height: 1.5em;
+
+/* LAPTOP STYLE */
+@media screen and (min-device-width: 1024px) and (max-device-width: 1200px)  {
+  body {
+    display: block;
+    width: 85%;
+    margin: auto;
+  }
+  .header-img {
+    width: 27%;
+  }
+  .fa-2x {
+  font-size: 1.0em!important;
+  padding: 0!important;
+  }
+  footer ul {
+    text-align: right;
+  }
+  .horiz-rule {
+    width: 8%;
+    height: 0.25em;
+    background-color: black;
+    margin-left: 0px;
+    margin-top:80px;
+  }
+  /* ABOUT ME */
+  #intro {
+    margin: 0;
+    margin-top: 100px;
+    height: 70vh;
+  }
+  .about-para p {
+    text-align: left; width: 50%;font-size: 19px;
+  }
+  /* PROJECT GRID */
+  .img-wrap {
+    vertical-align: top;
+    display: inline-block;
+    width: 32%;
+    padding-right: 11px;
+    margin-bottom: 1.5em;
+  }
+  h2.proj-title {
+    display: block;
+    margin: 0;
+    padding-top:15px;
+    font-size: 28px;
+  }
+  p.proj-description {
+    display: block;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 25px;
+    font-size: 17px;
+  }
+  ul.posts li {
+    list-style: none;
+  }
+  .projects ul li {
+    list-style: none;
+    display: inline;
+  }
+  .projects img {
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
 }
 
+/* TABLET LANDSCAPE STYLES */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  body {
+    width: 100%;
+    margin: 0px;
+    padding-bottom: 0px;
+  }
+  .header-img {
+    width: 30%;
+  }
+  .fa-2x {
+  font-size: 1.5em!important;
+  padding: 0.1em;
+  }
+  .horiz-rule {
+    width: 10%;
+    height: 0.3em;
+    background-color: black;
+    margin-left: 0px;
+    margin-top:80px;
+  }
+  /* ABOUT ME */
+  #intro {
+    margin: 0;
+    margin-top: 100px;
+    height: 80vh;
+  }
+  .about-para p {
+    text-align: left; width: 55%;font-size: 20px;
+  }
+
+  /* PROJECT GRID */
+  .img-wrap {
+    vertical-align: top;
+    display: inline-block;
+    width: 47.5%;
+    margin-right: 10px;
+    margin-bottom: 1.5em;
+  }
+  ul.photo-grid {
+    padding: 0;
+  }
+  h2.proj-title {
+    display: block;
+    margin: 0;
+    padding-top: 5px;
+    font-size: 30px;
+  }
+  p.proj-description {
+    display: block;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    font-size: 20px;
+  }
+  ul.posts li {
+    list-style: none;
+  }
+  .projects ul li {
+    list-style: none;
+    display: inline;
+  }
+  .projects img {
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+}
+
+/* PORTRAIT STYLES FOR IPAD */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1200px) and (orientation: portrait) {
+  .header-img {
+    width: 40%;
+  }
+  .fa-2x {
+    font-size: 1.8em!important;
+    padding: 0.15em;
+  }
+  .proj-title {
+    font-size: 1.9em;
+    font-weight: 600;
+    margin:0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  /* ABOUT ME */
+  #intro {
+    margin: 0;
+    margin-top: 100px;
+    height: 100%;
+  }
+  .about-para p {
+    text-align: left;
+    font-size: 20px;
+    width: 100%;
+  }
+  .horiz-rule {
+    width: 10%;
+    height: 0.25em;
+    background-color: black;
+    margin-left: 0px;
+    margin-top:80px;
+    margin-bottom: 150px;
+  }
+  /* PROJECT GRID */
+  .img-wrap {
+    vertical-align: top;
+    display: inline-block;
+    width: 47%;
+    margin-right: 10px;
+    margin-bottom: 1.5em;
+  }
+  p.proj-description {
+    display: block;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    font-size: 20px;
+  }
+}
+
+/* LANDSCAPE STYLES */
+@media screen and (max-device-width: 768px) and (orientation: landscape) {
+  html {
+      -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+  }
+  .horiz-rule {
+    width: 10%;
+    height: 0.35em;
+    background-color: black;
+    margin-left: 0px;
+    margin-top:80px;
+  }
+  .header-img {
+    width: 55%;
+    padding: 0px;
+  }
+  .fa-2x {
+    font-size: 2.25em!important;
+    padding: 0.10em;
+  }
+  footer ul {
+    padding: 0px;
+    margin-top:15px;
+    list-style: none;
+  }
+  .proj-title {
+    font-size: 2.3em;
+    font-weight: 600;
+    margin:0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+}
