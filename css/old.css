@@ -1,0 +1,359 @@
+body {
+  margin: 30px auto;
+  width: 80%;
+}
+nav ul, footer ul {
+  font-size: 1.0em;
+  font-family:'Lato', 'Sans-Serif';
+  padding: 0px;
+  list-style: none;
+  font-weight: 300;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+.header-img {
+  padding-top: 50px;
+  width: 240px;
+}
+footer ul li {
+  display: inline;
+  margin-right: 10px;
+}
+a {
+  text-decoration: none;
+  color: #404040;
+  transition: .5s;
+}
+a:hover {
+  text-decoration: none;
+  color: #00cc66;
+}
+h1 {
+  font-size: 2.0em;
+  font-family:'Lato', 'Sans-Serif';
+  color: #00cc66;
+}
+h2, h3 {
+  font-family:'Lato', 'Sans-Serif';
+}
+h4 {
+  font-family:'Lato', 'Sans-Serif';
+  font-weight: 400;
+}
+h3, h4 {
+  text-transform: uppercase;
+}
+h3 {
+  padding-top: 25px!important;
+}
+p {
+  font-family:'Lato', 'Sans-Serif';
+  font-size: 1.0em;
+  line-height: 1.6em;
+  color: #333;
+  font-weight: 300;
+}
+footer {
+  border-top: 1px solid #d5d5d5;
+  font-size: .8em;
+  text-align: center;
+}
+
+ul.posts {
+  margin: 20px auto 40px;
+  font-size: 1.5em;
+}
+
+.button {
+  background-color: #00cc66;
+  border: none;
+  color: white;
+  padding: 12px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family:'Lato', 'Sans-Serif';
+}
+
+.button:hover {
+  color: white;
+  background-color: #00a351;
+}
+
+/* index photo grid */
+.img-wrap {
+  vertical-align: top;
+  display: inline-block;
+  width: 32%;
+  margin-right: 10px;
+}
+
+ul.photo-grid {
+  padding: 0;
+}
+
+h2.proj-title {
+  display: block;
+  margin: 0;
+  padding-top: 5px;
+}
+
+p.proj-description {
+  display: block;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 25px;
+}
+
+ul.posts li {
+  list-style: none;
+}
+
+.projects ul li {
+  list-style: none;
+  display: inline;
+}
+
+.projects img {
+  width: 100%;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+/*links*/
+.links {
+  color: #00cc66;
+  transition: .5s;
+}
+
+.links:hover {
+  color: #00a351;
+}
+
+
+.portfolio-piece, .about-me {
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+
+.portfolio-piece h2,
+.portfolio-piece h3,
+.portfolio-piece p,
+.about-me p,
+.about-me h1,
+.about-me h2  {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.portfolio-piece h4,
+.portfolio-piece h1 {
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.portfolio-piece img, iframe, .about-me img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.sleep img,
+.ashby-village img,
+.medifast img,
+.rugged img,
+.sis-project img,
+.sis-project iframe,
+.tensegrity img {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.credits {
+  font-family:'Lato', 'Sans-Serif';
+  font-size: 0.9em;
+  line-height: 1.4em;
+  font-weight: 400;
+}
+
+.tensos-img {
+  display: inline-block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center;
+}
+
+figcaption h2, h4 {
+  text-align: left;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.about-para {
+  margin: 30px;
+}
+#horiz-rule {
+  width: 20%; height: 10px; background-color: black; margin-left: 0px; margin-top:40px;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  .about-para {
+    text-align: left; width: 55%; /*height: 80vh;*/ font-size: 18px; margin-top: 80px;
+    margin: 30px;
+  }
+  #horiz-rule {
+    width: 65px; height: 5px; background-color: black; margin-left: 0px; margin-top:40px; margin-bottom: 50px;
+  }
+}
+@media only screen and (min-device-width: 1024px){
+  .about-para {
+    text-align: left; width: 55%; font-size: 18px; margin-top: 80px;
+    margin: 0px;
+    padding: 0px;
+  }
+  #horiz-rule {
+    width: 65px; height: 5px; background-color: black; margin-left: 0px; margin-top:40px; margin-bottom: 50px;
+  }
+}
+
+/*responsive*/
+/*ipad view*/
+@media only screen and (min-device-width: 768px) and (max-width: 1024px) {
+  .portfolio-piece h4,
+  .portfolio-piece h3,
+  .portfolio-piece h2,
+  .portfolio-piece h1,
+  .portfolio-piece p {
+    padding: 0px;
+  }
+  ul.photo-grid {
+    padding: 30px;
+  }
+  .img-wrap {
+    vertical-align: top;
+    display: inline-block;
+    width: 48%;
+    margin-right: 10px;
+  }
+/*text adjustments*/
+  .portfolio-piece h4,
+  .portfolio-piece h3,
+  .portfolio-piece h2,
+  .about-me p {
+    padding: 0;
+    font-size: 1.5em;
+  }
+  .about-me h2, .about-me h1 {
+    padding: 0;
+  }
+  .portfolio-piece p {
+    text-align: left;
+    line-height: 1.75em;
+    padding: 0;
+  }
+  .portfolio-piece h1 {
+    padding: 0;
+    font-size: 4.0em;
+  }
+  body{
+    width: 100%;
+  }
+  .header-img {
+    margin-left: 30px;
+    padding-top: 30px;
+    width: 30%;
+  }
+  nav ul, footer ul {
+    font-size: 1.0em;
+  }
+  nav ul li {
+    display: inline;
+    margin-left: 30px;
+  }
+}
+
+/*mobile view*/
+
+/*iphone 5*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+/*index stacked view*/
+  .projects img, iframe {
+    width: 96%;
+    padding-bottom: 20px;
+  }
+  .projects p {
+    font-size: 1.5em;
+  }
+  .projects h2 {
+    font-size: 4.5em;
+  }
+  ul.photo-grid {
+    padding: 30px;
+  }
+  .img-wrap {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    margin-right: 10px;
+  }
+/*about me page*/
+  .about-me img {
+    width: 100%;
+  }
+/*text adjustments*/
+  h2.proj-title {
+    display: block;
+    margin: 0;
+    padding-top: 5px;
+  }
+  p.proj-description {
+    display: block;
+    margin: 0;
+    padding-top: 5px;
+    margin-bottom: 45px;
+  }
+  .portfolio-piece h4,
+  .portfolio-piece h3,
+  .portfolio-piece h2,
+  .about-me p {
+    padding: 0;
+    font-size: 1.5em;
+  }
+  .about-me h2 {
+    padding: 0;
+    font-size: 3.0em;
+  }
+  .portfolio-piece p {
+    text-align: left;
+    line-height: 1.75em;
+    padding: 0;
+  }
+  .portfolio-piece h1,
+  .about-me h1 {
+    padding: 0;
+    font-size: 4.0em;
+  }
+  body{
+    width: 100%;
+  }
+  .header-img {
+    margin-left: 30px;
+    padding-top: 30px;
+    width: 90%;
+  }
+  nav ul, footer ul {
+    font-size: 3.0em;
+  }
+  nav ul li {
+    display: inline;
+    margin-left: 30px;
+  }
+}
