@@ -27,7 +27,7 @@ p {
 /* NAVIGATION and FOOTER */
 .header-img {
   padding-top: 25px;
-  width: 90%;
+  width: 80%;
 }
 footer ul {
   padding: 0px;
@@ -108,6 +108,43 @@ ul.photo-grid {
 .proj-description {
   margin:0;
 }
+
+/* project pieces */
+  body .portfolio-piece {
+    margin: 0px auto;
+  }
+  .portfolio-piece h1 {
+    padding-top: 50px;
+    font-size: 3.5em;
+    font-weight: 600;
+    color: #00cc66;
+    text-align: center;
+  }
+  .portfolio-piece h4 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1em;
+    text-align: center;
+  }
+  .portfolio-piece h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.5em;
+  }
+  .portfolio-piece p {
+    font-size: 1em;
+  }
+  .credits {
+    font-family:'Lato', 'Sans-Serif';
+    font-size: .75em !important;
+    font-weight: 400;
+  }
+  .portfolio-piece img, iframe {
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
 
 /* ############################# PROJECT PAGES ############################# */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
