@@ -1,336 +1,530 @@
+/* GLOBAL STYLES */
+* {
+  font-family:'Lato', 'Sans-Serif';
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  /*-webkit-font-smoothing: antialiased;*/
+  /*-moz-osx-font-smoothing: grayscale;*/
+}
 body {
-  margin: 30px auto;
+  padding: 50px;
+  padding-bottom: 10px;
+}
+p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+.horiz-rule {
+  width: 20%;
+  height: 0.6em;
+  background-color: black;
+  margin-left: 0px;
+  margin-top:80px;
+  border:none;
+}
+
+/* NAVIGATION and FOOTER */
+.header-img {
+  padding-top: 25px;
   width: 80%;
 }
-nav ul, footer ul {
-  font-size: 1.0em;
-  font-family:'Lato', 'Sans-Serif';
+footer ul {
   padding: 0px;
+  margin-top:10px;
   list-style: none;
-  font-weight: 300;
-}
-nav ul li {
-  display: inline;
-  margin-right: 20px;
-}
-.header-img {
-  padding-top: 30px;
-  width: 240px;
 }
 footer ul li {
   display: inline;
   margin-right: 10px;
 }
+footer {
+  border-top: 1px solid #d5d5d5;
+  text-align: center;
+}
+.fa-2x {
+  font-size: 4em!important;
+  padding: 0.15em;
+}
+
+/* LINKS */
 a {
+  font-size: 1.0em;
+  font-weight: 400;
   text-decoration: none;
   color: #404040;
-  transition: .5s;
+  transition: .25s;
 }
 a:hover {
   text-decoration: none;
   color: #00cc66;
 }
-h1 {
-  font-size: 2.0em;
-  font-family:'Lato', 'Sans-Serif';
-  color: #00cc66;
-}
-h2, h3 {
-  font-family:'Lato', 'Sans-Serif';
-}
-h4 {
-  font-family:'Lato', 'Sans-Serif';
-  font-weight: 400;
-}
-h3, h4 {
-  text-transform: uppercase;
-}
-h3 {
-  padding-top: 25px!important;
-}
-p {
-  font-family:'Lato', 'Sans-Serif';
-  font-size: 1.0em;
-  line-height: 1.6em;
-  color: #333;
-  font-weight: 300;
-}
-footer {
-  border-top: 1px solid #d5d5d5;
-  font-size: .8em;
-  text-align: center;
-}
-
-ul.posts {
-  margin: 20px auto 40px;
-  font-size: 1.5em;
-}
-
-.button {
-  background-color: #00cc66;
-  border: none;
-  color: white;
-  padding: 12px 32px;
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  font-family:'Lato', 'Sans-Serif';
-}
-
-.button:hover {
-  color: white;
-  background-color: #00a351;
-}
-
-/* index photo grid */
-.img-wrap {
-  vertical-align: top;
-  display: inline-block;
-  width: 32%;
-  margin-right: 10px;
-}
-
-ul.photo-grid {
-  padding: 0;
-}
-
-h2.proj-title {
-  display: block;
-  margin: 0;
-  padding-top: 5px;
-}
-
-p.proj-description {
-  display: block;
-  margin: 0;
-  padding-top: 5px;
-  padding-bottom: 25px;
-}
-
-ul.posts li {
-  list-style: none;
-}
-
-.projects ul li {
-  list-style: none;
-  display: inline;
-}
-
-.projects img {
-  width: 100%;
-  margin-top: 10px;
-  margin-right: 10px;
-}
-
-.about-me img {
-}
-
-/*links*/
 .links {
   color: #00cc66;
   transition: .5s;
 }
-
 .links:hover {
   color: #00a351;
 }
 
-
-.portfolio-piece, .about-me {
-  margin-top: 30px;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 30px;
+/* ABOUT ME */
+#intro {
+  margin-bottom: 15em;
+  margin-top: 5em;
+}
+.about-para p {
+  line-height: 1.5em;
 }
 
-.portfolio-piece h2,
-.portfolio-piece h3,
-.portfolio-piece p,
-.about-me p,
-.about-me h1,
-.about-me h2  {
-  padding-left: 80px;
-  padding-right: 80px;
+/* INDEX PROJECT GRID */
+ul.posts li {
+  list-style: none;
+  padding-bottom: 30px;
+}
+.projects ul li {
+  list-style: none;
+  display: inline;
+}
+.projects img, iframe {
+  width: 100%;
+}
+.proj-title {
+  font-size: 3.5em;
+  font-weight: 600;
+  margin:0;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+ul.photo-grid {
+  padding: 0px;
+}
+.img-wrap {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  /*margin-right: 10px;*/
+  margin-bottom: 7.0em;
+}
+.proj-description {
+  margin:0;
 }
 
-.portfolio-piece h4,
-.portfolio-piece h1 {
-  text-align: center;
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
-.portfolio-piece img, iframe, .about-me img {
-  display: block;
-  margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.sleep img,
-.ashby-village img,
-.medifast img,
-.rugged img,
-.sis-project img,
-.sis-project iframe,
-.tensegrity img {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.credits {
-  font-family:'Lato', 'Sans-Serif';
-  font-size: 0.9em;
-  line-height: 1.4em;
-  font-weight: 400;
-}
-
-.tensos-img {
-  display: inline-block !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  text-align: center;
-}
-
-figcaption h2, h4 {
-  text-align: left;
-  margin-bottom: 5px;
-  margin-top: 5px;
-}
-
-
-/*responsive*/
-/*ipad view*/
-@media only screen and (min-device-width: 768px) and (max-width: 1024px) {
-  .portfolio-piece h4,
-  .portfolio-piece h3,
-  .portfolio-piece h2,
-  .portfolio-piece h1,
-  .portfolio-piece p {
-    padding: 0px;
-  }
-  ul.photo-grid {
-    padding: 30px;
-  }
-  .img-wrap {
-    vertical-align: top;
-    display: inline-block;
-    width: 48%;
-    margin-right: 10px;
-  }
-/*text adjustments*/
-  .portfolio-piece h4,
-  .portfolio-piece h3,
-  .portfolio-piece h2,
-  .about-me p {
-    padding: 0;
-    font-size: 1.5em;
-  }
-  .about-me h2, .about-me h1 {
-    padding: 0;
-  }
-  .portfolio-piece p {
-    text-align: left;
-    line-height: 1.75em;
-    padding: 0;
+/* project pieces */
+  body .portfolio-piece {
+    margin: 0px auto;
   }
   .portfolio-piece h1 {
-    padding: 0;
-    font-size: 4.0em;
+    padding-top: 50px;
+    font-size: 3.5em;
+    font-weight: 600;
+    color: #00cc66;
+    text-align: center;
   }
-  body{
-    width: 100%;
+  .portfolio-piece h4 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1em;
+    text-align: center;
   }
-  .header-img {
-    margin-left: 30px;
-    padding-top: 30px;
-    width: 30%;
+  .portfolio-piece h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.5em;
   }
-  nav ul, footer ul {
-    font-size: 1.0em;
+  .portfolio-piece p {
+    font-size: 1em;
   }
-  nav ul li {
-    display: inline;
-    margin-left: 30px;
+  .credits {
+    font-family:'Lato', 'Sans-Serif';
+    font-size: .75em !important;
+    font-weight: 400;
+  }
+  .portfolio-piece img, iframe {
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+/* ############################# PROJECT PAGES ############################# */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+  /* ---------- SPACING & ALIGNMENT ---------- */
+  body .portfolio-piece {
+    width: 85%;
+    margin: 30px auto;
+  }
+  .portfolio-piece {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+  }
+
+  .portfolio-piece h2,
+  .portfolio-piece h3,
+  .portfolio-piece p {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .portfolio-piece h4,
+  .portfolio-piece h1 {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .portfolio-piece img, iframe {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+
+  .portfolio-piece h1 {
+    font-size: 1.7em;
+    font-weight: 600;
+    color: #00cc66;
+  }
+  .portfolio-piece h4 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .portfolio-piece h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 19px;
+  }
+  .portfolio-piece p {
+    font-size: 16px;
+  }
+
+  .sleep img,
+  .ashby-village img,
+  .medifast img,
+  .rugged img,
+  .sis-project img,
+  .sis-project iframe,
+  .tensegrity img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .credits {
+    font-family:'Lato', 'Sans-Serif';
+    font-size: 14px !important;
+    font-weight: 400;
+  }
+
+  .tensos-img {
+    display: inline-block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
+  }
+  figcaption h2, h4 {
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  /* random captions here and there */
+  i {
+    font-size: 14px;
   }
 }
 
-/*mobile view*/
+/* ####################################################################### */
 
-/*iphone 5*/
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-/*index stacked view*/
-  .projects img, iframe {
-    width: 96%;
-    padding-bottom: 20px;
+
+/* LARGE SCREENS */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+  body {
+    display: block;
+    width: 85%;
+    margin: auto;
   }
-  .projects p {
-    font-size: 1.5em;
+  .header-img {
+    width: 23%;
   }
-  .projects h2 {
-    font-size: 4.5em;
+  .fa-2x {
+  font-size: 1.0em!important;
+  padding: 0!important;
   }
-  ul.photo-grid {
-    padding: 30px;
+  footer ul {
+    text-align: right;
   }
+  .horiz-rule {
+    width: 8%;
+    height: 0.3em;
+    background-color: black;
+    margin-left: 0px;
+    margin-top:70px;
+  }
+  /* ABOUT ME */
+  #intro {
+    margin: 0;
+    margin-top: 120px;
+    height: 80vh;
+  }
+  .about-para p {
+    text-align: left; width: 50%;font-size: 18px;
+  }
+  /* PROJECT GRID */
   .img-wrap {
     vertical-align: top;
     display: inline-block;
+    width: 32%;
+    padding-right: 11px;
+    margin-bottom: 1.5em;
+  }
+  h2.proj-title {
+    display: block;
+    margin: 0;
+    padding-top:15px;
+    font-size: 28px;
+  }
+  p.proj-description {
+    display: block;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 25px;
+    font-size: 17px;
+  }
+  ul.posts li {
+    list-style: none;
+  }
+  .projects ul li {
+    list-style: none;
+    display: inline;
+  }
+  .projects img {
     width: 100%;
+    margin-top: 10px;
     margin-right: 10px;
   }
-/*about me page*/
-  .about-me img {
-    width: 100%;
+}
+
+/* LAPTOP STYLE */
+@media screen and (min-device-width: 1024px) and (max-device-width: 1200px)  {
+  body {
+    display: block;
+    width: 85%;
+    margin: auto;
   }
-/*text adjustments*/
+  .header-img {
+    width: 27%;
+  }
+  .fa-2x {
+  font-size: 1.0em!important;
+  padding: 0!important;
+  }
+  footer ul {
+    text-align: right;
+  }
+  .horiz-rule {
+    width: 8%;
+    height: 0.25em;
+    background-color: black;
+    margin-left: 0px;
+    margin-top:80px;
+  }
+  /* ABOUT ME */
+  #intro {
+    margin: 0;
+    margin-top: 100px;
+    height: 70vh;
+  }
+  .about-para p {
+    text-align: left; width: 50%;font-size: 19px;
+  }
+  /* PROJECT GRID */
+  .img-wrap {
+    vertical-align: top;
+    display: inline-block;
+    width: 32%;
+    padding-right: 11px;
+    margin-bottom: 1.5em;
+  }
+  h2.proj-title {
+    display: block;
+    margin: 0;
+    padding-top:15px;
+    font-size: 28px;
+  }
+  p.proj-description {
+    display: block;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 25px;
+    font-size: 17px;
+  }
+  ul.posts li {
+    list-style: none;
+  }
+  .projects ul li {
+    list-style: none;
+    display: inline;
+  }
+  .projects img {
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+}
+
+/* TABLET LANDSCAPE STYLES */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  body {
+    width: 100%;
+    margin: 0px;
+    padding-bottom: 0px;
+  }
+  .header-img {
+    width: 30%;
+  }
+  .fa-2x {
+  font-size: 1.5em!important;
+  padding: 0.1em;
+  }
+  .horiz-rule {
+    width: 10%;
+    height: 0.3em;
+    background-color: black;
+    margin-left: 0px;
+    margin-top:80px;
+  }
+  /* ABOUT ME */
+  #intro {
+    margin: 0;
+    margin-top: 100px;
+    height: 80vh;
+  }
+  .about-para p {
+    text-align: left; width: 55%;font-size: 20px;
+  }
+
+  /* PROJECT GRID */
+  .img-wrap {
+    vertical-align: top;
+    display: inline-block;
+    width: 47.5%;
+    margin-right: 10px;
+    margin-bottom: 1.5em;
+  }
+  ul.photo-grid {
+    padding: 0;
+  }
   h2.proj-title {
     display: block;
     margin: 0;
     padding-top: 5px;
+    font-size: 30px;
   }
   p.proj-description {
     display: block;
     margin: 0;
     padding-top: 5px;
-    margin-bottom: 45px;
+    padding-bottom: 25px;
+    font-size: 20px;
   }
-  .portfolio-piece h4,
-  .portfolio-piece h3,
-  .portfolio-piece h2,
-  .about-me p {
-    padding: 0;
-    font-size: 1.5em;
+  ul.posts li {
+    list-style: none;
   }
-  .about-me h2 {
-    padding: 0;
-    font-size: 3.0em;
+  .projects ul li {
+    list-style: none;
+    display: inline;
   }
-  .portfolio-piece p {
+  .projects img {
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+}
+
+/* PORTRAIT STYLES FOR IPAD */
+@media screen and (min-device-width: 768px) and (max-device-width: 1200px) and (orientation: portrait) {
+  .header-img {
+    width: 40%;
+  }
+  .fa-2x {
+    font-size: 1.8em!important;
+    padding: 0.15em;
+  }
+  .proj-title {
+    font-size: 1.9em;
+    font-weight: 600;
+    margin:0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  /* ABOUT ME */
+  #intro {
+    margin: 0;
+    margin-top: 100px;
+    height: 100%;
+  }
+  .about-para p {
     text-align: left;
-    line-height: 1.75em;
-    padding: 0;
-  }
-  .portfolio-piece h1,
-  .about-me h1 {
-    padding: 0;
-    font-size: 4.0em;
-  }
-  body{
+    font-size: 20px;
     width: 100%;
   }
+  .horiz-rule {
+    width: 10%;
+    height: 0.25em;
+    background-color: black;
+    margin-left: 0px;
+    margin-top:80px;
+    margin-bottom: 150px;
+  }
+  /* PROJECT GRID */
+  .img-wrap {
+    vertical-align: top;
+    display: inline-block;
+    width: 47%;
+    margin-right: 10px;
+    margin-bottom: 1.5em;
+  }
+  p.proj-description {
+    display: block;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    font-size: 20px;
+  }
+}
+
+/* LANDSCAPE STYLES */
+@media screen and (max-device-width: 768px) and (orientation: landscape) {
+  html {
+      -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+  }
+  .horiz-rule {
+    width: 10%;
+    height: 0.35em;
+    background-color: black;
+    margin-left: 0px;
+    margin-top:80px;
+  }
   .header-img {
-    margin-left: 30px;
-    padding-top: 30px;
-    width: 90%;
+    width: 55%;
+    padding: 0px;
   }
-  nav ul, footer ul {
-    font-size: 3.0em;
+  .fa-2x {
+    font-size: 2.25em!important;
+    padding: 0.10em;
   }
-  nav ul li {
-    display: inline;
-    margin-left: 30px;
+  footer ul {
+    padding: 0px;
+    margin-top:15px;
+    list-style: none;
+  }
+  .proj-title {
+    font-size: 2.3em;
+    font-weight: 600;
+    margin:0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
   }
 }
