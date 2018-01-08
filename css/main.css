@@ -4,6 +4,7 @@
   font-size: 20px;
   font-weight: 300;
   letter-spacing: 0px;
+  line-height: 27px;
   /*-webkit-font-smoothing: antialiased;*/
   /*-moz-osx-font-smoothing: grayscale;*/
 }
@@ -12,7 +13,7 @@ body {
   padding-bottom: 10px;
 }
 p {
-  font-size: 1.5em;
+  font-size: 1em;
   line-height: 1.5em;
 }
 .horiz-rule {
@@ -72,9 +73,6 @@ a:hover {
   margin-bottom: 15em;
   margin-top: 5em;
 }
-.about-para p {
-  line-height: 1.5em;
-}
 
 /* INDEX PROJECT GRID */
 ul.posts li {
@@ -107,6 +105,8 @@ ul.photo-grid {
 }
 .proj-description {
   margin:0;
+  font-size: 1em;
+  line-height: 1.5em;
 }
 
 /* project pieces */
@@ -131,12 +131,10 @@ ul.photo-grid {
     font-weight: 600;
     font-size: 1.5em;
   }
-  .portfolio-piece p {
-    font-size: 1em;
-  }
+
   .credits {
     font-family:'Lato', 'Sans-Serif';
-    font-size: .75em !important;
+    font-size: .65em !important;
     font-weight: 400;
   }
   .portfolio-piece img, iframe {
@@ -181,6 +179,9 @@ ul.photo-grid {
     margin-bottom: 30px;
   }
 
+  .portfolio-piece p {
+    font-size: 18px;
+  }
 
   .portfolio-piece h1 {
     font-size: 1.7em;
@@ -196,9 +197,6 @@ ul.photo-grid {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 19px;
-  }
-  .portfolio-piece p {
-    font-size: 16px;
   }
 
   .sleep img,
