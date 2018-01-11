@@ -205,7 +205,9 @@ ul.photo-grid {
   .rugged img,
   .sis-project img,
   .sis-project iframe,
-  .tensegrity img {
+  .tensegrity img,
+  .hive img,
+  .aspen img {
     margin-top: 40px;
     margin-bottom: 40px;
   }
