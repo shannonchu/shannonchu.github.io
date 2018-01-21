@@ -21,8 +21,15 @@ p {
   height: 0.6em;
   background-color: black;
   margin-left: 0px;
-  margin-top:80px;
+  margin-top:90px;
   border:none;
+}
+.opener {
+  font-size: 1.8em;
+  font-weight: 600;
+}
+.back-link {
+  font-size: 0.8em;
 }
 
 /* NAVIGATION and FOOTER */
@@ -70,8 +77,8 @@ a:hover {
 
 /* ABOUT ME */
 #intro {
-  margin-bottom: 15em;
-  margin-top: 5em;
+  margin-bottom: 30%;
+  margin-top: 10%;
 }
 
 /* INDEX PROJECT GRID */
@@ -130,6 +137,7 @@ ul.photo-grid {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 1.5em;
+    padding-top: 40px;
   }
 
   .credits {
@@ -187,6 +195,7 @@ ul.photo-grid {
     font-size: 1.7em;
     font-weight: 600;
     color: #00cc66;
+    padding-top: 30px;
   }
   .portfolio-piece h4 {
     text-transform: uppercase;
@@ -194,6 +203,7 @@ ul.photo-grid {
     font-size: 16px;
   }
   .portfolio-piece h3 {
+    padding-top: 40px;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 19px;
@@ -244,6 +254,7 @@ ul.photo-grid {
     display: block;
     width: 85%;
     margin: auto;
+    padding-top:20px;
   }
   .header-img {
     width: 23%;
@@ -260,16 +271,16 @@ ul.photo-grid {
     height: 0.3em;
     background-color: black;
     margin-left: 0px;
-    margin-top:70px;
+    margin-top:50px;
   }
   /* ABOUT ME */
   #intro {
     margin: 0;
-    margin-top: 120px;
+    padding-top: 10%;
     height: 80vh;
   }
   .about-para p {
-    text-align: left; width: 50%;font-size: 18px;
+    text-align: left; width: 70%;font-size: 18px;
   }
   /* PROJECT GRID */
   .img-wrap {
@@ -337,7 +348,7 @@ ul.photo-grid {
     height: 70vh;
   }
   .about-para p {
-    text-align: left; width: 50%;font-size: 19px;
+    text-align: left; width: 70%;font-size: 19px;
   }
   /* PROJECT GRID */
   .img-wrap {
@@ -375,7 +386,7 @@ ul.photo-grid {
 }
 
 /* TABLET LANDSCAPE STYLES */
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media screen and (min-device-width: 736px) and (max-device-width: 1024px) and (orientation: landscape) {
   body {
     width: 100%;
     margin: 0px;
@@ -393,16 +404,15 @@ ul.photo-grid {
     height: 0.3em;
     background-color: black;
     margin-left: 0px;
-    margin-top:80px;
+    margin-top:50px;
   }
   /* ABOUT ME */
   #intro {
     margin: 0;
-    margin-top: 100px;
-    height: 80vh;
+    height: 100vh;
   }
   .about-para p {
-    text-align: left; width: 55%;font-size: 20px;
+    text-align: left; width: 80%;font-size: 20px;
   }
 
   /* PROJECT GRID */
