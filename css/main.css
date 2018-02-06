@@ -217,7 +217,8 @@ ul.photo-grid {
   .sis-project iframe,
   .tensegrity img,
   .hive img,
-  .aspen img {
+  .aspen img,
+  .openhouse img {
     margin-top: 40px;
     margin-bottom: 40px;
   }
