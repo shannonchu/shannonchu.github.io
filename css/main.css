@@ -7,8 +7,10 @@
   line-height: 27px;
 }
 body {
-  padding: 30px 40px;
+  padding: 35px 45px;
   padding-bottom: 10px;
+  max-width:1440px!important; 
+  margin:auto!important;
 }
 
 .back-link {
