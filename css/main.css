@@ -26,32 +26,41 @@ body {
 
 /* NAVIGATION and FOOTER */
 nav {
-  /*margin-bottom: 4rem;*/
+  margin-bottom: 5rem;
 }
 .name {
-  font-weight: 600;
-  font-size: .95rem;
-  line-height: 1.2rem;
-  letter-spacing: .08rem;
-  color: #00a351;
-  text-transform: uppercase;
+  font-family: 'Playfair Display', serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-right: .5rem;
 }
 .category {
   font-weight: 400;
-  font-size: .75rem;
+  font-size: .7rem;
   line-height: 1.2rem;
   letter-spacing: .08rem;
   color: #272727;
   text-transform: uppercase;
 }
-footer ul {
+nav ul {
   list-style: none;
 }
-footer ul li {
+nav ul li {
   display: inline;
-  margin-right: 10px;
+  margin-left: .75rem;
+}
+.nav-item {
+  margin-left: 1rem;
+}
+.icons {
+  float: right;
 }
 footer {
+  font-size: .75rem;
+  font-weight: 400;
+  color: #a8a8a8;
+  margin-top: 2rem;
   padding-top: .5rem;
   border-top: 1px solid #d5d5d5;
   text-align: center;
@@ -66,7 +75,7 @@ a {
   font-size: 1.0em;
   font-weight: 300;
   text-decoration: none;
-  color: #404040;
+  color: #000000;
   transition: .25s;
 }
 a:hover {
@@ -85,7 +94,6 @@ a:hover {
 #intro {
   margin-top: 50px;
   margin-bottom: 75px;
-  /*width: 80%;*/
   padding: 0px;
 }
 
@@ -108,13 +116,13 @@ a:hover {
   font-family: 'Playfair Display', serif;
   margin-top: 1rem;
   font-weight: 300;
-  font-size: 1.4rem!important;
+  font-size: 1.2rem!important;
   text-align: left;
   margin-bottom: .35rem;
 }
 .category {
   text-align: left;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 .proj-description {
   margin-bottom: 60px;
