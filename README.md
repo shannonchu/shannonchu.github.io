@@ -1,2 +1,2 @@
 # shannonchu.github.io
-under heavy construction!
+my design portfolio
