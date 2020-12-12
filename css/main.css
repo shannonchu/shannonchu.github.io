@@ -125,7 +125,7 @@ a:hover {
   display: none;
 }
 .proj-description {
-  margin-bottom: 20px;
+  margin-bottom: 3em;
 }
 
 
@@ -187,4 +187,19 @@ a:hover {
   text-align: center;
 }
 
+.footer-proj-title {
+  font-weight: 700;
+  font-size: 1.15rem!important;
+}
 
+.next-project {
+  text-align: right;
+}
+
+.previous-project p,
+.next-project p {
+  margin-top: 5em;
+  margin-bottom: 2px!important;
+  color: #272727;
+  font-size: 0.95em;
+}
