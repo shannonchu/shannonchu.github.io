@@ -164,10 +164,23 @@ a:hover {
 .image-caption {
   font-size: 0.8rem;
   line-height: 1rem;
-  color: #272727;
+  color: #a3a3a3;
   font-weight: 400;
   display: block;
   margin:auto;
+}
+
+.image-caption-link {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000000;
+  transition: .25s;
+}
+
+.image-caption-link:hover {
+  text-decoration: none;
+  color: #000000;
 }
 
 .side-imgs {
