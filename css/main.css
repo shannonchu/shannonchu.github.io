@@ -164,7 +164,7 @@ a:hover {
 .image-caption {
   font-size: 0.8rem;
   line-height: 1rem;
-  color: #a3a3a3;
+  color: #A9A9A9;
   font-weight: 400;
   display: block;
   margin:auto;
@@ -174,13 +174,13 @@ a:hover {
   font-size: 0.8rem;
   font-weight: 700;
   text-decoration: none;
-  color: #000000;
+  color: #505050;
   transition: .25s;
 }
 
 .image-caption-link:hover {
   text-decoration: none;
-  color: #000000;
+  color: #505050;
 }
 
 .side-imgs {
