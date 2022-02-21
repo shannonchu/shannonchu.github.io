@@ -30,7 +30,7 @@ img {
 
 /* NAVIGATION and FOOTER */
 nav {
-  margin-bottom: 4.75rem;
+  margin-bottom: 5.5rem;
 }
 .name {
   /*font-family: 'Playfair Display', serif;*/
@@ -39,6 +39,7 @@ nav {
   line-height: 2rem;
   margin-right: .5rem;
   color: #00cc66;
+  text-align: center;
 }
 .name:hover{
   color: #00cc66!important;
@@ -106,11 +107,11 @@ a:hover {
   width: 100%;
 }
 .proj-title {
-  margin-top: 1.3rem;
+  margin-top: 1rem;
   font-weight: 700;
-  font-size: 1.37rem!important;
+  font-size: 1.5rem!important;
   text-align: left;
-  margin-bottom: .5rem;
+  margin-bottom: .75rem;
 }
 .category {
   text-align: left;
@@ -131,7 +132,7 @@ a:hover {
 .portfolio-piece h1 {
   /*font-family: 'Playfair Display', serif;*/
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 2.3rem;
   line-height: 2.5rem;
   margin-bottom: 16px;
 }
